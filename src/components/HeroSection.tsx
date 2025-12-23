@@ -20,7 +20,7 @@ export const HeroSection = () => {
           {/* Name */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <span className="text-foreground">Md Akther</span>
-            <span className="text-gradient">Hosen</span>
+            <span className="text-gradient"> Hosen</span>
           </h1>
 
           {/* Title */}
@@ -47,7 +47,7 @@ export const HeroSection = () => {
           {/* Social Links */}
           <div className="flex gap-6 animate-fade-in-up" style={{ animationDelay: "1.2s" }}>
             <a
-              href="https://github.com"
+              href="http://github.com/aktherhosen"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -55,7 +55,7 @@ export const HeroSection = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/md-akther-hosen"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -63,7 +63,7 @@ export const HeroSection = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:mdaktherhosen16@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               <Mail size={24} />
