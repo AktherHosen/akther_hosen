@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -37,18 +37,30 @@
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(220 16% 25%) 0%, hsl(220 10% 45%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(220 20% 97%) 0%, hsl(220 20% 94%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(220 20% 100% / 0.8) 0%, hsl(220 20% 98% / 0.6) 100%);
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(220 16% 25%) 0%,
+      hsl(220 10% 45%) 100%
+    );
+    --gradient-hero: linear-gradient(
+      180deg,
+      hsl(220 20% 97%) 0%,
+      hsl(220 20% 94%) 100%
+    );
+    --gradient-card: linear-gradient(
+      135deg,
+      hsl(220 20% 100% / 0.8) 0%,
+      hsl(220 20% 98% / 0.6) 100%
+    );
+
     --glow-primary: 0 0 40px hsl(220 16% 25% / 0.1);
     --glow-subtle: 0 0 60px hsl(220 16% 25% / 0.05);
-    
+
     --shadow-card: 0 8px 32px hsl(220 20% 80% / 0.3);
     --shadow-elevated: 0 16px 48px hsl(220 20% 80% / 0.4);
 
-    --font-mono: 'JetBrains Mono', monospace;
-    --font-sans: 'Space Grotesk', system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+    --font-sans: "Space Grotesk", system-ui, sans-serif;
 
     --sidebar-background: 220 20% 100%;
     --sidebar-foreground: 220 16% 12%;
@@ -90,13 +102,25 @@
     --ring: 220 14% 75%;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(220 14% 75%) 0%, hsl(220 10% 55%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(220 16% 8%) 0%, hsl(220 16% 12%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(220 16% 12% / 0.8) 0%, hsl(220 16% 10% / 0.6) 100%);
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(220 14% 75%) 0%,
+      hsl(220 10% 55%) 100%
+    );
+    --gradient-hero: linear-gradient(
+      180deg,
+      hsl(220 16% 8%) 0%,
+      hsl(220 16% 12%) 100%
+    );
+    --gradient-card: linear-gradient(
+      135deg,
+      hsl(220 16% 12% / 0.8) 0%,
+      hsl(220 16% 10% / 0.6) 100%
+    );
+
     --glow-primary: 0 0 40px hsl(220 14% 75% / 0.15);
     --glow-subtle: 0 0 60px hsl(220 14% 75% / 0.08);
-    
+
     --shadow-card: 0 8px 32px hsl(220 20% 4% / 0.4);
     --shadow-elevated: 0 16px 48px hsl(220 20% 4% / 0.6);
 
@@ -194,42 +218,52 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeInUp {
-  from { 
-    opacity: 0; 
-    transform: translateY(30px); 
+  from {
+    opacity: 0;
+    transform: translateY(30px);
   }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes slideInLeft {
-  from { 
-    opacity: 0; 
-    transform: translateX(-30px); 
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
   }
-  to { 
-    opacity: 1; 
-    transform: translateX(0); 
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
 @keyframes pulseGlow {
-  0%, 100% { 
-    box-shadow: 0 0 20px hsl(220 14% 75% / 0.1); 
+  0%,
+  100% {
+    box-shadow: 0 0 20px hsl(220 14% 75% / 0.1);
   }
-  50% { 
-    box-shadow: 0 0 40px hsl(220 14% 75% / 0.2); 
+  50% {
+    box-shadow: 0 0 40px hsl(220 14% 75% / 0.2);
   }
 }
