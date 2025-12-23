@@ -32,9 +32,9 @@ export const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="font-mono text-xl font-bold text-primary hover:glow-primary transition-all duration-300"
+          className="font-mono text-xl uppercase font-bold text-primary hover:glow-primary transition-all duration-300"
         >
-          {"<Dev />"}
+          {"<Akther />"}
         </a>
 
         {/* Desktop Navigation */}

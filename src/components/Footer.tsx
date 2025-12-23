@@ -16,7 +16,7 @@ export const Footer = () => {
             href="#"
             className="font-mono text-xl font-bold text-primary hover:glow-primary transition-all duration-300"
           >
-            {"<Dev />"}
+            {"<Akther />"}
           </a>
 
           {/* Social Links */}
@@ -37,7 +37,7 @@ export const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart size={14} className="text-primary" /> by Alex Johnson © 2024
+            Built with <Heart size={14} className="text-primary" /> by Md. Akther Hosen © 2025
           </p>
         </div>
       </div>

@@ -57,7 +57,7 @@ const BlogPost = () => {
             <div className="flex flex-wrap items-center gap-6 text-muted-foreground">
               <span className="flex items-center gap-2">
                 <User size={18} />
-                Alex Johnson
+                Md. Akther Hosen
               </span>
               <span className="flex items-center gap-2">
                 <Calendar size={18} />

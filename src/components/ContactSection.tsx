@@ -18,22 +18,27 @@ export const ContactSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button variant="hero" size="xl" asChild>
-              <a href="mailto:hello@alexjohnson.dev">
+              <a href="mailto:mdaktherhosen16@gmail.com">
                 <Mail size={20} />
                 Say Hello
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
-                <Send size={20} />
-                Schedule a Call
-              </a>
-            </Button>
+            <a
+              href="https://wa.me/1610945101"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Send size={20} />
+              WhatsApp
+            </a>
+          </Button>
+
           </div>
 
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <MapPin size={18} />
-            <span>San Francisco, CA</span>
+            <span>Karnaphuli, Chittagong, Bangladesh</span>
           </div>
         </div>
       </div>
