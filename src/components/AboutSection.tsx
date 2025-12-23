@@ -32,19 +32,29 @@ export const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Hello! I'm Alex, a web developer based in San Francisco with a passion 
-                for creating beautiful, functional websites and applications.
+                Hello! I'm a web developer with a strong interest in building
+                clean, user-friendly websites and applications that solve real
+                problems.
               </p>
+
               <p>
-                My journey into web development started back in 2018 when I decided to 
-                try customizing a WordPress theme — turns out hacking together a custom 
-                design taught me a lot about HTML & CSS!
+                My journey into web development began with curiosity — starting
+                from simple HTML and CSS experiments and gradually moving into
+                WordPress customization. Working on themes and plugins helped me
+                understand how the web really works behind the scenes.
               </p>
+
               <p>
-                Fast-forward to today, and I've had the privilege of working at a 
-                startup, a large corporation, and a student-led design studio. My main 
-                focus these days is building accessible, inclusive products and digital 
-                experiences for a variety of clients.
+                Over time, I expanded my skills into JavaScript, React, and
+                backend development, working on real-world projects that
+                improved both my technical skills and problem-solving mindset.
+              </p>
+
+              <p>
+                Today, I focus on building scalable, accessible, and
+                performance-driven web applications. I enjoy learning new
+                technologies, refining best practices, and continuously
+                improving the quality of the products I build.
               </p>
             </div>
           </div>
