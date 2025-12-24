@@ -1,31 +1,31 @@
 export const featuredProjects = [
   {
-    title: "E-Commerce Platform",
+    title: "Donor Hive",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, secure payments via Stripe, and an intuitive admin dashboard. Built with performance and scalability in mind.",
-    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "Donor Hive is an innovative platform designed to connect blood donors with recipients in need. This user-friendly web application allows individuals to create profiles, track donation history, and receive real-time notifications about nearby donation opportunities. By fostering a supportive community, Donor Hive aims to save lives through seamless blood donation platform.",
+    tech: ["React", "Tailwind CSS", "Node.js", "ExpressJS", "MongoDB", "Firebase"],
+    github: "https://github.com/AktherHosen/donorhive-client",
+    live: "https://donor-hive.web.app",
     image: "linear-gradient(145deg, hsl(220 16% 18%) 0%, hsl(220 16% 10%) 100%)",
     category: "Full Stack",
   },
   {
-    title: "Task Management App",
+    title: "Blog Nest",
     description:
-      "A collaborative project management tool featuring real-time updates, drag-and-drop kanban boards, and team workspaces. Includes notification system and activity logging.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "BlogNest is a dynamic blogging platform that empowers users to create, share, and discover engaging content. With a user-friendly interface, it allows authors to publish posts easily, interact with readers through comments, and manage their profiles. The platform fosters community engagement by enabling users to follow each other and receive personalized updates.",
+    tech: ["React", "Tailwind CSS", "Node.js", "ExpressJS", "MongoDB", "Firebase"],
+    github: "https://github.com/aktherHosen/blogNest-client",
+    live: "https://blog-nest-9b582.web.app/",
     image: "linear-gradient(145deg, hsl(220 16% 16%) 0%, hsl(220 16% 9%) 100%)",
     category: "Full Stack",
   },
   {
-    title: "AI Content Generator",
+    title: "Art Craft",
     description:
-      "An AI-powered platform that generates marketing copy, blog posts, and social media content. Features customizable tone, brand voice settings, and export options.",
-    tech: ["Python", "FastAPI", "OpenAI", "React", "TailwindCSS"],
+      "ArtCraft is a fully responsive online marketplace for artists and crafters, optimized for all devices. Users can register, log in, and authenticate via email or third-party services like Google and GitHub. They can add, update, or delete craft items, browse categories, filter by customization options, and switch themes for a personalized experience.",
+    tech: ["React", "Tailwind CSS", "Node.js", "ExpressJS", "MongoDB", "Firebase"],
     github: "https://github.com",
-    live: "https://example.com",
+    live: "https://blog-nest-9b582.web.app",
     image: "linear-gradient(145deg, hsl(220 16% 20%) 0%, hsl(220 16% 11%) 100%)",
     category: "AI/ML",
   },
@@ -33,9 +33,9 @@ export const featuredProjects = [
 
 export const otherProjects = [
   {
-    title: "Weather Dashboard",
-    description: "Beautiful weather app with location detection, 7-day forecasts, and animated weather icons.",
-    tech: ["React", "OpenWeather API", "Framer Motion"],
+    title: "E-Restaurant",
+    description: "A modern, responsive restaurant landing page featuring smooth navigation and engaging visuals. The design showcases featured dishes, promotes key offerings, and includes a functional booking form to reserve tables directly from the site. Optimized for both performance and user experience.",
+    tech: ["React", "Tailwind CSS", "JavaScript", "Swiper.js"],
     github: "https://github.com",
     live: "https://example.com",
     category: "Frontend",
