@@ -1,25 +1,27 @@
-import { Code2, Database, Server, Globe, Smartphone, Palette, Terminal, GitBranch, Cloud, Layers, Zap, Box, FileCode, Braces, Hash, Cpu } from "lucide-react";
+import { Code2, Database, Server, Globe, Smartphone, Palette, Terminal, GitBranch, Cloud, Layers, Zap, Box, FileCode, Braces, Hash, Cpu, FileJson, Flame, Leaf, Route, AppWindow, Send } from "lucide-react";
 
 const skills = {
   frontend: [
     { name: "React", icon: Code2 },
+    { name: "JavaScript", icon: FileJson },
     { name: "TypeScript", icon: Braces },
-    { name: "Next.js", icon: Globe },
     { name: "Tailwind CSS", icon: Palette },
     { name: "Vue.js", icon: Layers },
     { name: "HTML/CSS", icon: FileCode },
   ],
   backend: [
     { name: "Node.js", icon: Server },
-    { name: "Python", icon: Hash },
+    { name: "Express.js", icon: Route },
+    { name: "Firebase", icon: Flame },
+    { name: "MongoDB", icon: Leaf },
     { name: "PostgreSQL", icon: Database },
-    { name: "GraphQL", icon: Zap },
-    { name: "Docker", icon: Box },
     { name: "REST APIs", icon: Cpu },
   ],
-  tools: [
+ tools: [
     { name: "Git", icon: GitBranch },
-    { name: "AWS", icon: Cloud },
+    { name: "Vercel", icon: Cloud },
+    { name: "Postman", icon: Send },    
+    { name: "VS Code", icon: AppWindow },
     { name: "Figma", icon: Smartphone },
     { name: "Terminal", icon: Terminal },
   ],
