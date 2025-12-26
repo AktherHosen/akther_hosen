@@ -1,4 +1,14 @@
 export const featuredProjects = [
+     {
+    title: "Sunplus",
+    description:
+      "Sunplus is a custom e‑commerce application built with an admin dashboard for managing products and orders. Users can browse products, add to cart, and place orders without registration. The admin panel allows easy product management and order tracking with a clean interface tailored for store owners.",
+    tech: ["React", "Tailwind CSS", "TypeScript", "Redux", "Node.js", "ExpressJS", "Mongoose", "MongoDB", "Shadcn UI"],
+    github: "https://github.com/AktherHosen/Sunplus-Frontend",
+    live: "https://sunplusbd.com",
+    image: "linear-gradient(145deg, hsl(200 16% 17%) 0%, hsl(200 16% 10%) 100%)",
+    category: "Full Stack",
+  },
   {
     title: "Donor Hive",
     description:
