@@ -5,11 +5,26 @@ import { Footer } from "@/components/Footer";
 import { BlogCard } from "@/components/BlogCard";
 import { blogPosts, getFeaturedPosts } from "@/data/blogPosts";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
+import { supabase } from "@/supabaseClient";
 
 const Blog = () => {
   const featuredPosts = getFeaturedPosts();
   const regularPosts = blogPosts.filter((post) => !post.featured);
+  const [blogs, setBlogs] = useState([]);
 
+  useEffect(() => {
+    fetchProjects();
+  }, []);
+
+  async function fetchProjects() {
+    const { data, error } = await supabase
+      .from('blogs')
+      .select('*');
+    console.log(data)
+    if (error) console.log('Error:', error);
+    else setBlogs(data);
+  }
   return (
     <main className="min-h-screen bg-background">
       <Navbar />
